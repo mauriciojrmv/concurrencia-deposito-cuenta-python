@@ -7,7 +7,6 @@ Este proyecto simula depósitos concurrentes en una aplicación bancaria utiliza
 1. **Python 3.6+**: Asegúrate de tener instalado Python. Para verificarlo, ejecuta:
 
    ```bash
-
    python --version
 
 2. **Bibliotecas de Python:** Instala la biblioteca requests ejecutando:
@@ -18,4 +17,5 @@ pip install requests
 
 URL debe apuntar al server.php de nuestro proyecto utilizando la direccion ip y el puerto.
 
+```bash
 python simular_concurrencia.py
