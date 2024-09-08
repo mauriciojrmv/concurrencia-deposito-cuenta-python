@@ -17,5 +17,7 @@ pip install requests
 
 URL debe apuntar al server.php de nuestro proyecto utilizando la direccion ip y el puerto.
 
+Para ejecutar el proyecto ejecuta:
+
 ```bash
 python simular_concurrencia.py
