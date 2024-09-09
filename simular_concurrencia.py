@@ -39,7 +39,7 @@ def ejecutar_deposito(cuenta_id, monto, token):
 
 # Función para simular múltiples depósitos concurrentes en varias cuentas
 def simular_concurrencia(num_hilos):
-    cuentas = [1, 2, 3, 4]  # Lista de cuentas disponibles (agregamos 2 cuentas más)
+    cuentas = [1, 2, 3, 4]  # Lista de cuentas disponibles
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=num_hilos) as executor:
         futuros = []
